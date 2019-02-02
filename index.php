@@ -9,10 +9,12 @@
     <div class="log-form">
       <h2>Login to your account</h2>
     <form>
-      <input type="text" name="username" class="username" placeholder="username" />
-      <input type="password" name="password" class="password" placeholder="password" />
-      <button type="submit" class="btn">Login</button>
+      <input type="text" name="username" class="username" placeholder="username" autocomplete="off" required />
+      <input type="password" name="password" class="password" placeholder="password" required />
+      <button type="submit" name="login" class="btn">Login</button>
     </form>
     </div>
+
+  <?php include('login.php'); ?>
   </body>
 </html>
