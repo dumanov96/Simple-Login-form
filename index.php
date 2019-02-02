@@ -8,7 +8,7 @@
   <body>
     <div class="log-form">
       <h2>Login to your account</h2>
-    <form>
+    <form action="" method="post">
       <input type="text" name="username" class="username" placeholder="username" autocomplete="off" required />
       <input type="password" name="password" class="password" placeholder="password" required />
       <button type="submit" name="login" class="btn">Login</button>
